@@ -49,3 +49,15 @@ a {
   color: white;
   padding-left: 2rem;
 }
+
+.whitebox {
+  padding: 1.5rem 5rem;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  float: right;
+}
