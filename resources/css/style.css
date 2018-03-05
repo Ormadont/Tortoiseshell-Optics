@@ -50,6 +50,10 @@ a {
   padding-left: 2rem;
 }
 
+#small-a {
+  display: none;
+}
+
 .whitebox {
   padding: 1.5rem 5rem;
   color: black;
@@ -124,4 +128,77 @@ footer span {
 
 footer img {
   height: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .whitebox {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .backgr-image {
+    padding-top: 0;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .backgr-image {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .whitebox {
+    padding: 1rem 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 9rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .logo span {
+    display: none;
+  }
+  nav a {
+    display: none;
+  }
+  #small-a {
+    display:inline;
+  }
+  .three-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+  .box-pic-and-str {
+    margin-top: 1.54rem;
+    font-size: 0.77rem;
+  }
+  #paper-box {
+    margin-top: 0;
+  }
+  .two-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .headline-and-text {
+    margin: 0;
+    width: 100%;
+  }
+  .headline-box {
+    width: 100%;
+    text-align: center;
+  }
+  footer span {
+    display: none;
+  }
+  footer {
+    justify-content: center;
+  }
+
 }
