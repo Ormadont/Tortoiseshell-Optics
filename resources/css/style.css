@@ -185,6 +185,7 @@ footer img {
   .two-box {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0rem;
   }
   .headline-and-text {
     margin: 0;
@@ -200,5 +201,15 @@ footer img {
   footer {
     justify-content: center;
   }
-
+  .headline-box {
+    padding: 0.5rem 0;
+  }
+  .headline-and-text {
+    margin-bottom: 4rem;
+  }
+  .headline-and-text span {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
